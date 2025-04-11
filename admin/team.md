@@ -1,11 +1,11 @@
 # Team name
----
+
 # Values:
 - 1
 - 2
 - 3
 - 4
----
+  
 # Members:
 - ChengCheng Li
 - Chung Lee
@@ -18,4 +18,3 @@
 - Ryan Garcia
 - Zack Roland
 - Zhenyu Jiang
-  ---
