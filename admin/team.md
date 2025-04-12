@@ -1,5 +1,7 @@
 # Team name
 
+## Team brand
+
 # Values:
 - 1
 - 2
@@ -17,4 +19,13 @@
 - Pranay Jha
 - Ryan Garcia
 - Zack Roland
-- Zhenyu Jiang
+
+:sparkles: Zhenyu Jiang :grey_question:
+- Major: Computer Enginnering :pouting_cat:
+- Fun fact: Unable to stop working sometime, love anime and gundam. :scream_cat:
+- [Github](https://github.com/XDawn66)  	~~don't spy~~
+- :point_right: Best code: ```print("Hello') console.log("Hello") cout<<"Hello"<<std::endl; system.out.print("Hello")``` 
+
+| Contribution | Title | Description | link |
+| ----------- | ----------- | ----------- | ----------- |
+
