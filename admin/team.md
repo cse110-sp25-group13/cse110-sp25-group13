@@ -14,6 +14,8 @@
 - Darwin Smith
 - Haoting Huang
 - JayLynne Redeaux
+
+
 :octopus: Kate Stadler :shell:
 - Major: Cognitive Science :brain:
 - Fun Fact: I once found an injured seagull at the beach and we called some sea bird rescue and waited like an hour and a half for a lady to come rescue it. Its name is Ferguson
