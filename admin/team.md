@@ -3,8 +3,8 @@
 ## Team brand
 
 # Values:
-- 1
-- 2
+- Accountability: Take responsibility as a member of the team and any parts of the project you are working on. 
+- No judgement: Limit judgement on other members of the group not related to the project itself, as we want the group to be a safe space to share ideas and not worry about whether or not an idea will come across as "dumb". 
 - 3
 - 4
   
