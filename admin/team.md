@@ -9,7 +9,10 @@
 - 4
   
 # Members:
-- ChengCheng Li
+🌐 ChengCheng Li 🌌
+- Major: Computer Science :computer:
+- Fun Fact: Over spring break, I was either farming in Stardew Valley or jumping timelines in Split Fiction. Real life barely loaded. 🌾🌀
+- [Github](https://github.com/chenchengli)
 - Chung Lee
 - Darwin Smith
 - Haoting Huang
@@ -33,4 +36,3 @@
 
 | Contribution | Title | Description | link |
 | ----------- | ----------- | ----------- | ----------- |
-
