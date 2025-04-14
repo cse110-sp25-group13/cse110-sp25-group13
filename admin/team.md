@@ -24,7 +24,7 @@
 
 
 Zack Roland 
-- Major: Math-Computer Science :calculator:💻
+- Major: Math-Computer Science :calculator: 💻
 - Fun fact: I make it a goal every summer to rewatch Avatar the Last Airbender 🔥:water::rock:💨from start to finish. Also I've reread the Harry Potter series over 5 times.
 - [Github](https://github.com/ZackRoland)
 
