@@ -21,6 +21,8 @@
 - Nick Nguyen
 - Pranay Jha
 - Ryan Garcia
+
+
 Zack Roland 
 - Major: Math-Computer Science :calculator:💻
 - Fun fact: I make it a goal every summer to rewatch Avatar the Last Airbender 🔥:water::rock:💨from start to finish. Also I've reread the Harry Potter series over 5 times.
