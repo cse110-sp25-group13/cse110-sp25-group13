@@ -22,7 +22,7 @@
 Pranay Jha 🌧️
 - Major: Computer Engineering 🤓
 - Fun Fact: I hate JavaScript.
-- [GitHub](https:://github.com/psjcodes)
+- [GitHub](https://github.com/psjcodes)
 
 - Ryan Garcia
 
