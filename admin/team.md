@@ -1,6 +1,6 @@
 # Cache me outside
 
-![team logo](./logo.jpg)
+![team logo](branding/logo.jpg)
 
 ## Team brand
 
