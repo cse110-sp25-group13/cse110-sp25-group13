@@ -1,6 +1,6 @@
 # Cache me outside
 
-![team logo](branding/logo.png)
+![team logo](branding/logo.png){width=300px}
 
 ## Team brand (see branding directory)
 
