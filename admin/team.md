@@ -18,7 +18,12 @@
 - Haoting Huang
 - JayLynne Redeaux
 - Nick Nguyen
-- Pranay Jha
+
+Pranay Jha 🌧️
+- Major: Computer Engineering 🤓
+- Fun Fact: I hate JavaScript.
+- [GitHub](https:://github.com/psjcodes)
+
 - Ryan Garcia
 
 ChungYin Lee :space_invader: 
