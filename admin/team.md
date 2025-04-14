@@ -52,5 +52,6 @@ Zack Roland
 - Major: Computer Science 🖥️
 - Fun facts: I have been playing violin for 4 years. I like Ghibli Studio's movies and Ben & Jerry's ice cream.
 - [Github](https://github.com/nicknguyen0201)
+
 | Contribution | Title | Description | link |
 | ----------- | ----------- | ----------- | ----------- |
