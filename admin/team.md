@@ -17,7 +17,6 @@
 - Darwin Smith
 - Haoting Huang
 - JayLynne Redeaux
-- Nick Nguyen
 
 Pranay Jha 🌧️
 - Major: Computer Engineering 🤓
