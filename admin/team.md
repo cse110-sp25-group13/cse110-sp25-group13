@@ -1,5 +1,7 @@
 # Cache me outside
 
+![team logo](./logo.jpg)
+
 ## Team brand
 
 # Values:
