@@ -13,14 +13,23 @@
 - Major: Computer Science :computer:
 - Fun Fact: Over spring break, I was either farming in Stardew Valley or jumping timelines in Split Fiction. Real life barely loaded. 🌾🌀
 - [Github](https://github.com/chenchengli)
-- Chung Lee
-- Darwin Smith
+  
+ChungYin Lee :space_invader: 
+- Major: Computer Science
+- Fun Fact: I have too many hours spent on steam and a collection of dolls :bear:
+- [Github](https://github.com/LCY0502)
+
 - Haoting Huang
 - JayLynne Redeaux
 - Nick Nguyen
 - Pranay Jha
 - Ryan Garcia
 - Zack Roland
+
+👺 Darwin Smith 😡
+- Major: Math/CS 🤓
+- Fun Fact: I just got myself omega addicted to Stardew Valley 💀 My sleep is suffering 😪
+- [Github](https://github.com/DarwinSmth)
 
 :octopus: Kate Stadler :shell:
 - Major: Cognitive Science :brain:
