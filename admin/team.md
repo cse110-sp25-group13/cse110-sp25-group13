@@ -8,7 +8,7 @@
 - Accountability: Take responsibility as a member of the team and any parts of the project you are working on. This includes things like being on time to meetings and communicating early and often if a conflict comes up.
 - No judgement: Limit judgement on other members of the group not related to the project itself, as we want the group to be a safe space to share ideas and not worry about whether or not an idea will come across as "dumb". 
 - Empathy: Value empathy, whether that's trying to understand team members when conflicts arise, or designing for the end user.
-- 4
+- !Ego (no ego). It's okay to be confident in your ideas but we don't want to start a cycle of being offended if someone doesn't like your idea/doesn't use it. Per the accountability bullet, we are all part of the same time and are all responsible for the success of this team! 
   
 # Members:
 🌐 Chencheng Li 🌌
