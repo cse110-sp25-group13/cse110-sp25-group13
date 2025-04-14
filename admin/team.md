@@ -24,7 +24,10 @@ Pranay Jha 🌧️
 - Fun Fact: I hate JavaScript.
 - [GitHub](https://github.com/psjcodes)
 
-- Ryan Garcia
+Ryan Garcia 🌋
+- Major: Computer Science
+- Fun fact: I've never watched/read any of the Harry Potter movies/books (sorry Zack😬)
+- [GitHub](https://github.com/ryanrgarcia)
 
 ChungYin Lee :space_invader: 
 - Major: Computer Science
