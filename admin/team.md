@@ -18,7 +18,11 @@
 
 - Darwin Smith
 - Haoting Huang
-- JayLynne Redeaux
+  
+JayLynne Redeaux 👺
+- Major(s): Computer science & Cognitive science 😮‍💨
+- Fun Fact: I have two kitties and they are the GCOAT (greatest cats of all time) 🙀
+- [GitHub](https://github.com/Jredeaux1)
 
 Pranay Jha 🌧️
 - Major: Computer Engineering 🤓
