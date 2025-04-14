@@ -1,8 +1,8 @@
 # Cache me outside
 
-![team logo](branding/logo.jpg)
+![team logo](branding/logo.png)
 
-## Team brand
+## Team brand (see branding directory)
 
 # Values:
 - Accountability: Take responsibility as a member of the team and any parts of the project you are working on. This includes things like being on time to meetings and communicating early and often if a conflict comes up.
