@@ -14,8 +14,8 @@ Meet our team and learn about our brand: [Click here](admin/team.md)
 
 ## 🎥 Team Video
 You can find our team intro video at:  
-`/admin/videos/teamintro.mp4`
+[here](/admin/videos/teamintro.mp4)
 
 ## 📸 Team Bonding
 Here’s a snapshot from our team bonding activity:  
-`/admin/teambonding.jpg`
+[here](/admin/teambonding.jpg)
