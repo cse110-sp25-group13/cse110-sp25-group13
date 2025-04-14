@@ -14,7 +14,6 @@
 - Fun Fact: Over spring break, I was either farming in Stardew Valley or jumping timelines in Split Fiction. Real life barely loaded. 🌾🌀
 - [Github](https://github.com/chencheng-li)
 
-- Chung Lee
 - Darwin Smith
 - Haoting Huang
 - JayLynne Redeaux
@@ -22,7 +21,11 @@
 - Pranay Jha
 - Ryan Garcia
 
-
+ChungYin Lee :space_invader: 
+- Major: Computer Science
+- Fun Fact: I have too many hours spent on steam and a collection of dolls :bear:
+- [Github](https://github.com/LCY0502)
+  
 Zack Roland 
 - Major: Math-Computer Science :calculator: 💻
 - Fun fact: I make it a goal every summer to rewatch Avatar the Last Airbender 🔥:water::rock:💨from start to finish. Also I've reread the Harry Potter series over 5 times.
