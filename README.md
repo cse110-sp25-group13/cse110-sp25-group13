@@ -18,4 +18,5 @@ You can find our team intro video at:
 
 ## 📸 Team Bonding
 Here’s a snapshot from our team bonding activity:  
-[here](/admin/teambonding.jpg)
+[original file](/admin/teambonding.jpg)
+[youtube link](https://youtu.be/PX--Qppba-c)
