@@ -14,17 +14,16 @@
 - Fun Fact: Over spring break, I was either farming in Stardew Valley or jumping timelines in Split Fiction. Real life barely loaded. 🌾🌀
 - [Github](https://github.com/chenchengli)
 - Chung Lee
+- Darwin Smith
 - Haoting Huang
 - JayLynne Redeaux
 - Nick Nguyen
 - Pranay Jha
 - Ryan Garcia
-- Zack Roland
-
-👺 Darwin Smith 😡
-- Major: Math/CS 🤓
-- Fun Fact: I just got myself omega addicted to Stardew Valley 💀 My sleep is suffering 😪
-- [Github](https://github.com/DarwinSmth)
+Zack Roland 
+- Major: Math-Computer Science :calculator:💻
+- Fun fact: I make it a goal every summer to rewatch Avatar the Last Airbender 🔥:water::rock:💨from start to finish. Also I've reread the Harry Potter series over 5 times.
+- [Github](https://github.com/ZackRoland)
 
 :octopus: Kate Stadler :shell:
 - Major: Cognitive Science :brain:
