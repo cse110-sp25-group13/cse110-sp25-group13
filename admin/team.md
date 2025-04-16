@@ -17,6 +17,7 @@
 - [Github](https://github.com/chencheng-li)
 
 - Darwin Smith
+  
 Haoting Huang 🍔
 - Major: Math-CS
 - Fun Fact: I can switch my eyes between double eyelids and single eyelids.
