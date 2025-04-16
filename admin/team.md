@@ -17,7 +17,10 @@
 - [Github](https://github.com/chencheng-li)
 
 - Darwin Smith
-- Haoting Huang
+Haoting Huang 🍔
+- Major: Math-CS
+- Fun Fact: I can switch my eyes between double eyelids and single eyelids.
+- [GitHub](https://github.com/sssssrrt01)
   
 JayLynne Redeaux 👺
 - Major(s): Computer science & Cognitive science 😮‍💨
