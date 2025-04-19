@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warmup</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Weclome to the guess and pick</h1>
+      <h2 id = "info">Start the game by getting cards:</h2>
+        <button id = "get_start" onclick ="init()">Get Cards</button>
+    </header>
+    <section class = "game_deck">
+        <h3>AI</h3>
+        <section id = "ai_deck">
+        </section>
+    <sectio class = "game_table">
+        <h3>Game Table</h3>
+        <section id = "table">
+            <span id = "table_player">
+                <h4>Player's Card</h4> 
+                <div id = "player_card"></div>
+            </span>
+            <section class="game_status">
+
+                <div id="status_message">Status Message</div>
+                <section class = "score_board">
+                    <div class="score" id="ai_score">AI Score: 0</div>
+                    <div class="score" id="player_score">Player Score: 0</div>
+                </section>
+            </section>
+            <span id = "table_ai">
+                <h4>Ai's Card</h4>
+                <div id = "ai_card"></div> 
+            </span>
+        </section>
+    </section>
+    <section>
+        <h3>Player</h3>
+        <section id = "player_deck">
+        </section>
+    </section>
+    <button id = "shuffle" onclick = "get_player_card()">Shuffle</button>   
+    <section class = "choose">
+        <h3>Choose a Card</h3>
+        <select id = "player_choice">
+            <option value="1" id = "pc_1">Card 1</option>
+            <option value="2" id = "pc_2">Card 2</option>
+            <option value="3" id = "pc_3">Card 3</option>
+            <option value="4" id = "pc_4">Card 4</option>
+        </select>
+        <button id= "play" onclick = "get_result()">Play</button>
+    </section>
+    
+    <button id = "reset" onclick = "reset_game()">Reset</button>
+  </body>
+  <script src = "script.js"></script>
+</html>
