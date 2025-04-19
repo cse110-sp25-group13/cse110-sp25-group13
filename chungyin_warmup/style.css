@@ -1,0 +1,113 @@
+:root{
+  --column_size: 2;
+  --card-width: 15vmin; /* scales with screen, max 100px */
+  --card-min-width: 5rem;
+  --card-max-width: 10rem;
+
+}
+
+*,*::after, *::before{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 1rem;
+  display: grid;
+  
+  grid-template-columns: auto 5rem;
+  grid-template-rows: 10% 15rem 15rem 10%; 
+  gap:.5rem;
+  justify-content: center;
+  padding: top 1rem;
+  gap: 1rem;
+
+}
+
+/* Overall layout of the game: Sections */
+@media screen and (min-width: 30rem)
+{
+  body{
+  
+    grid-template-columns: 25rem 5rem;
+    grid-template-rows: 10% 15rem 15rem 10%;
+    gap:.5rem;
+    justify-content: center;
+  }
+}
+
+.top-bar{
+  grid-column: span var(--column_size);
+}
+
+.computer-hands{
+  grid-column: span var(--column_size);
+  background-color: red;
+}
+
+.player-hands{
+  color:  white;
+  background-color: black;
+}
+
+.deck-area{
+  grid-row: span 2;
+}
+
+.controls-area{
+  display: grid;
+  grid-template-rows: 70% 30%;
+  grid-template-columns: 30% 30% 30%;
+  align-items:stretch;
+  justify-content: center;
+  gap: 1rem;
+
+}
+/* End of Overview */
+
+
+.computer-hands,
+.player-hands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1px;
+  
+  overflow: hidden;
+}
+
+.card {
+  aspect-ratio: 2 / 3;
+  width: 15vmin;                  /* scales based on the smaller of vh or vw */
+  max-width: 7rem;               /* optional cap */
+  min-width: 5rem; 
+  
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.deck{
+  height: 90%;
+  width: 90%;
+  border: 1px solid grey;
+  background-color: grey;
+  border-radius: .5rem;
+}
+
+/* class text */
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

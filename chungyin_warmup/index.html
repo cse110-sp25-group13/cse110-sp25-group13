@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <base href=".">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" ></script>
+  <title>Card Game</title>
+</head>
+<!-- Body Start -->
+<body>
+  <section class="top-bar">
+    <!-- Do you want to put something in the topbar -->
+    <div class="text" id="general-log">some log about the game</div>
+  </section>
+
+  <section class="computer-hands" id="computer-hands">
+    <div class="computer-card card"> card1</div>
+    <div class="computer-card card"> card2</div>
+    <div class="computer-card card"> card3</div>
+    <div class="computer-card card"> card4</div>
+    <div class="computer-card card"> card5</div>
+  </section>
+
+  <section class="player-hands" id="player-hands">
+    Click Draw to Draw a card
+  </section>
+
+  <section class = "deck-area">
+    <div class="deck" id="deck"> Deck</div>
+  </section>
+
+  <section class="controls-area ">
+    <button class="control" id="shuffle-btn">Shuffle</button>
+    <button class="control" id="draw-btn" >Draw</button>
+    <button class="control" id="reset-btn">Reset</button>
+  </section>
+
+</body>
+<!-- Body End -->
+</html>
