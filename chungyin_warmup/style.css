@@ -1,3 +1,10 @@
+/* Some ref:
+
+How To Build A Simple Card Game With JavaScript : 
+https://www.youtube.com/watch?app=desktop&v=NxRwIZWjLtE&t=939s
+
+*/
+
 :root{
   --column_size: 2;
   --card-width: 15vmin; /* scales with screen, max 100px */
@@ -83,6 +90,8 @@ body{
 
 
 .card {
+  position: relative;
+
   aspect-ratio: 2 / 3;
   width: 15vmin;                  /* scales based on the smaller of vh or vw */
   max-width: 7rem;               /* optional cap */
@@ -92,14 +101,40 @@ body{
   color: black;
   background-color: white;
   border-radius: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 3rem;
 
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.card.red{
+  color: red;
+}
+.card.black{
+  color: black;
+}
+.card.unknown{
+  color: green;
+}
 
+.card::before,
+.card::after{
+  position: absolute;
+  content: attr(data-value);
+  font-size: 2rem;
+}
+
+.card::before{
+  top:  .5rem;
+  left: .5rem;
+}
+
+.card::after{
+  bottom:   .5rem;
+  right:    .5rem;
+  transform: rotate(180deg);
+}
 .deck{
   height: 90%;
   width: 90%;

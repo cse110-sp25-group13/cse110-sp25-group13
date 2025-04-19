@@ -146,15 +146,40 @@ class Game21{
 
   }
 
+  #render_get_cardelement(card){
+    let color = "unknown";
+    let symbol = "🃟";
+    let cardElement = document.createElement("div")
+
+    switch(card.suit){
+      case "H": 
+        color = "red";
+        symbol = "♥";
+        break;
+      case "D":
+        color = "red";
+        symbol = "♦";
+        break;
+      case "S":
+        color = "black";
+        symbol = "♠";
+        break;
+      case "C":
+        color = "black";
+        symbol = "♣";
+        break;
+    }
+    cardElement.className = "card " + color;
+    cardElement.textContent = symbol;
+    cardElement.setAttribute("data-value", card.rank);
+    return cardElement;
+  }
   #render_player(){
     const playerHand = document.getElementById("player-hands");
     playerHand.innerHTML = "";
 
     for(const card of this.#player_hands){
-      let cardElement = document.createElement("div")
-      cardElement.className = "card";
-      cardElement.textContent = card;
-      playerHand.appendChild(cardElement);
+      playerHand.appendChild(this.#render_get_cardelement(card));
     }
 
     if(this.#player_hands.length == 0) playerHand.textContent = "Click Draw to get a new card"
@@ -163,10 +188,7 @@ class Game21{
     const compHand = document.getElementById("computer-hands")
     compHand.innerHTML = ""
     for(const card of this.#cpu_hands){
-      let cardElement = document.createElement("div")
-      cardElement.className = "card";
-      cardElement.textContent = card;
-      compHand.appendChild(cardElement);
+      compHand.appendChild(this.#render_get_cardelement(card));
     }
   }
   #render_deck(){
