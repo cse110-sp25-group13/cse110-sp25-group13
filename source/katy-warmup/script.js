@@ -16,6 +16,18 @@ const imageList = [
 ]
 const card = document.querySelector(".card");
 const cardBackImg = document.getElementById("card-back-img");
+const estimatedTodSpan = document.getElementById("estimated-tod");
+const flipCountDisplay = document.getElementById("flip-count");
+const form = document.getElementById("tod-form");
+
+let flipCount = 0;
+let estimatedTOD = null;
+
+document.getElementById("tod-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    estimatedTOD = parseInt(document.getElementById("tod").value);
+    estimatedTodSpan.textContent = estimatedTOD;
+});
 
 card.addEventListener("click", () => {
     const isFlipped = card.classList.contains("flipped");
@@ -26,5 +38,12 @@ card.addEventListener("click", () => {
     }
   
     card.classList.toggle("flipped");
-  });
+
+    if (card.classList.contains("flipped")) {
+        flipCount++;
+        flipCountDisplay.textContent = flipCount;
+    }
+});
+
+
   

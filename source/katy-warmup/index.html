@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <h1 id="site-title">Katy's Card Warmup</h1>
+    <h1 id="site-title">when will you explode :0</h1>
     <div class="card" id="first-card">
         <div class="card-inner">
             <div class="card-front">🂡</div>
@@ -16,6 +16,17 @@
             </div>
         </div>
     </div>
+
+    <form id="tod-form">
+        <label for="tod">How many flips till you explode?</label>
+        <input type="number" id="tod" name="tod" min="0" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <section id="estimation-display">
+        <p>Your estimation: <span id="estimated-tod">Not provided</span></p>
+        <p>Flips: <span id="flip-count">0</span></p>
+    </section>
 
     <script src="script.js"></script>
 </body>
