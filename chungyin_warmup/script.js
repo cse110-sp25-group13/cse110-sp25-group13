@@ -21,10 +21,9 @@ class Game21{
     
     this.#cpu_draw("down");
     this.#cpu_draw("up");
-
+    
     this.player_draw();
     this.player_draw();
-    this.render();
     document.getElementById("general-log").textContent= "Click hit to draw a card when under 21"
   }
 
@@ -43,7 +42,8 @@ class Game21{
     // render 
     console.log("Player total card value : " + this.player_cardvalue)
     
-    this.render();
+    this.#render_player();
+    this.#render_update_gamelog();
   }
 
 
@@ -60,18 +60,20 @@ class Game21{
   }
 
   stay(){
+    if(this.#end) return;
+
     this.#cpu_hands[0].setface = "up";
     while(this.cpu_cardvalue <= THRESHOLD_CPU_HIT){
       this.#cpu_draw("up");
     }
-
+    this.#render_computer();
+    
     if(this.gameover){
       document.getElementById("general-log").textContent=("you lost")
     }
     else document.getElementById("general-log").textContent=("you won")
 
     this.#end = true;
-    this.render();
   }
 
   #deck;
@@ -133,7 +135,9 @@ class Game21{
     }
     else document.getElementById("general-log").textContent=("Deck is empty!");
     console.log("CPU total card value : " + this.cpu_cardvalue)
-    this.render();
+    
+    this.#render_computer();
+    this.#render_update_gamelog();
   }
 
   // Render Function:
@@ -141,9 +145,11 @@ class Game21{
     this.#render_player();
     this.#render_deck();
     this.#render_computer();
+    this.#render_update_gamelog();
+  }
+  #render_update_gamelog(){
     document.getElementById("player-score").textContent = this.player_cardvalue;
     document.getElementById("cpu-score").textContent = this.cpu_cardvalue;
-
   }
 
   #render_get_cardelement(card){
@@ -172,8 +178,19 @@ class Game21{
     cardElement.className = "card " + color;
     cardElement.textContent = symbol;
     cardElement.setAttribute("data-value", card.rank);
+    
+    // GPT start
+    
+    // Optional: Remove the class after animation ends (in case you re-add the card)
+    cardElement.className = `card ${color} draw-animate`; // <-- Add animation class
+    cardElement.addEventListener("animationend", () => {
+      cardElement.classList.remove("draw-animate");
+    });
+  
+    // GPT ends
     return cardElement;
   }
+  
   #render_player(){
     const playerHand = document.getElementById("player-hands");
     playerHand.innerHTML = "";
@@ -191,6 +208,7 @@ class Game21{
       compHand.appendChild(this.#render_get_cardelement(card));
     }
   }
+
   #render_deck(){
     // rerender the deck
     const deck_area = document.getElementById("deck");
