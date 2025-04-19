@@ -65,10 +65,5 @@ Zack Roland
 - Fun facts: I have been playing violin for 4 years. I like Ghibli Studio's movies and Ben & Jerry's ice cream.
 - [Github](https://github.com/nicknguyen0201)
 
-Destin Tanjuaquio
-- Major: Computer Science
-- Fun Fact: I like to listen to one song on repeat at a time.
-- [Github](https://github.com/desticle)
-
 | Contribution | Title | Description | link |
 | ----------- | ----------- | ----------- | ----------- |
