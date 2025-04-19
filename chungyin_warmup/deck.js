@@ -9,9 +9,15 @@ export default class Deck {
   get length(){
       return this.cards.length;
   }
+  
+  draw(face ="up"){
+    let card = this.cards.pop();
+    card.face = face;
+    return card;
+  }
 
-  get draw(){
-    return this.cards.pop().label;
+  peek(i){
+    return this.cards.at(i).label;
   }
   // Fisher-Yates shuffle (GPT)
   shuffle(){
@@ -24,17 +30,46 @@ export default class Deck {
   reset(cards = freshDeck()){
     this.cards = cards;
   }
+
+  [Symbol.iterator]() {
+    let index = 0;
+    const cards = this.cards;
+    return {
+      next() {
+        if (index < cards.length) {
+          return { value: cards[index++], done: false };
+        } else {
+          return { done: true };
+        }
+      }
+    };
+  }
 }
 
 class PlayingCard{
-  constructor(suit, rank){
-    this.suit = suit;
-    this.rank = rank;
+  #face;
+  #rank;
+  #suit;
+  constructor(suit, rank, face="up"){
+    this.#suit = suit;
+    this.#rank = rank;
+    this.#face = face;
   }
 
   get label(){
-    return this.rank + this.suit;
+    return this.toString();
   }
+  toString(){
+    if(this.#face == "up")
+      return this.#rank + this.#suit;
+    else return "Down"
+  }
+
+  set face(f){
+    this.#face = f;
+  }
+
+  
 }
 
 function freshDeck(){

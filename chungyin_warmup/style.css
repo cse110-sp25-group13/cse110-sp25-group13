@@ -34,20 +34,14 @@ body{
     gap:.5rem;
     justify-content: center;
   }
+
+  & > section{
+    display: flex;
+  }
 }
 
 .top-bar{
   grid-column: span var(--column_size);
-}
-
-.computer-hands{
-  grid-column: span var(--column_size);
-  background-color: red;
-}
-
-.player-hands{
-  color:  white;
-  background-color: black;
 }
 
 .deck-area{
@@ -77,6 +71,16 @@ body{
   
   overflow: hidden;
 }
+.computer-hands{
+  grid-column: span var(--column_size);
+  background-color: red;
+}
+
+.player-hands{
+  color:  white;
+  background-color: black;
+}
+
 
 .card {
   aspect-ratio: 2 / 3;
