@@ -1,5 +1,8 @@
 import Deck from "./deck.js";
 // Starting Game
+
+const THRESHOLD_CPU_HIT = 15
+
 class Game21{
   constructor(){
     this.reset();
@@ -12,6 +15,7 @@ class Game21{
     this.#deck = new Deck();
     this.#player_hands = [];
     this.#cpu_hands = [];
+    this.#end = false;
 
     this.#deck.shuffle();
     
@@ -21,6 +25,7 @@ class Game21{
     this.player_draw();
     this.player_draw();
     this.render();
+    document.getElementById("general-log").textContent= "Click hit to draw a card when under 21"
   }
 
   shuffle(){
@@ -33,7 +38,7 @@ class Game21{
       const card = this.#deck.draw(face)
       this.#player_hands.push(card);
     }
-    else alert("Deck is empty!");
+    else document.getElementById("general-log").textContent=("Deck is empty!");
 
     // render 
     this.#render_player();
@@ -45,32 +50,36 @@ class Game21{
   // Player action
   
   hit(){
+    if(this.#end) return;
+
     if(this.busted){
-      alert("You already BUSTED!");return;
+      document.getElementById("general-log").textContent=("You already BUSTED!");return;
     }
     this.player_draw();
-    if(this.busted) alert("You are BUSTED!");
+    if(this.busted) document.getElementById("general-log").textContent=("You are BUSTED!");
   }
 
   stay(){
     this.#cpu_hands[0].face = "up";
-    while(this.cpu_cardvalue <= 15){
+    while(this.cpu_cardvalue <= THRESHOLD_CPU_HIT){
       this.#cpu_draw("up");
     }
     this.#render_computer();
 
     if(this.gameover){
-      alert("you lost")
+      document.getElementById("general-log").textContent=("you lost")
     }
-    else alert("you won")
+    else document.getElementById("general-log").textContent=("you won")
+
+    this.#end = true;
   }
 
   #deck;
   #player_hands;
   #cpu_hands;
+  #end;
   
   //Inner game state
-
   get gameover(){
     return this.busted || this.cpukills;
   }
@@ -106,8 +115,9 @@ class Game21{
       if(card.rank == "A") acount += 1;
       else sum += card.value;
     }
-
+    
     if (acount > 0){
+      if(acount + sum < THRESHOLD_CPU_HIT)
       for(let i = 0; i < acount; ++i){
         if(sum + 11 > 21)sum += 1;
         else sum += 11;
@@ -121,7 +131,7 @@ class Game21{
       const card = this.#deck.draw(face)
       this.#cpu_hands.push(card);
     }
-    else alert("Deck is empty!");
+    else document.getElementById("general-log").textContent=("Deck is empty!");
     this.render();
     console.log("CPU total card value : " + this.cpu_cardvalue)
   }

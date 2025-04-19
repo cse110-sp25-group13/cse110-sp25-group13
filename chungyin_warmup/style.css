@@ -30,7 +30,7 @@ body{
   body{
   
     grid-template-columns: 25rem 5rem;
-    grid-template-rows: 10% 15rem 15rem 10%;
+    grid-template-rows: 10% 12rem 12rem 10%;
     gap:.5rem;
     justify-content: center;
   }
