@@ -41,9 +41,9 @@ class Game21{
     else document.getElementById("general-log").textContent=("Deck is empty!");
 
     // render 
-    this.#render_player();
     console.log("Player total card value : " + this.player_cardvalue)
-
+    
+    this.render();
   }
 
 
@@ -60,11 +60,10 @@ class Game21{
   }
 
   stay(){
-    this.#cpu_hands[0].face = "up";
+    this.#cpu_hands[0].setface = "up";
     while(this.cpu_cardvalue <= THRESHOLD_CPU_HIT){
       this.#cpu_draw("up");
     }
-    this.#render_computer();
 
     if(this.gameover){
       document.getElementById("general-log").textContent=("you lost")
@@ -72,6 +71,7 @@ class Game21{
     else document.getElementById("general-log").textContent=("you won")
 
     this.#end = true;
+    this.render();
   }
 
   #deck;
@@ -132,8 +132,8 @@ class Game21{
       this.#cpu_hands.push(card);
     }
     else document.getElementById("general-log").textContent=("Deck is empty!");
-    this.render();
     console.log("CPU total card value : " + this.cpu_cardvalue)
+    this.render();
   }
 
   // Render Function:
@@ -141,6 +141,9 @@ class Game21{
     this.#render_player();
     this.#render_deck();
     this.#render_computer();
+    document.getElementById("player-score").textContent = this.player_cardvalue;
+    document.getElementById("cpu-score").textContent = this.cpu_cardvalue;
+
   }
 
   #render_player(){

@@ -12,7 +12,7 @@ export default class Deck {
   
   draw(face ="up"){
     let card = this.cards.pop();
-    card.face = face;
+    card.setface = face;
     return card;
   }
 
@@ -56,17 +56,21 @@ class PlayingCard{
     this.#face = face;
   }
   get rank(){
-    return this.#rank;
+    if(this.#face == "up") return this.#rank;
+    else return "?"
   }
 
   get suit(){
-    return this.#suit;
+    if(this.#face == "up") return this.#suit;
+    else return "?"
   }
-  
+
   get label(){
     return this.toString();
   }
   get value(){
+    if(this.#face == "down") return 0;
+
     switch(this.#rank){
       case "A": 
         return 11;
@@ -80,11 +84,14 @@ class PlayingCard{
   toString(){
     if(this.#face == "up")
       return this.#rank + this.#suit;
-    else return "Down"
+    else return "?"
   }
 
-  set face(f){
+  set setface(f){
     this.#face = f;
+  }
+  get face(){
+    return this.#face
   }
 
   
