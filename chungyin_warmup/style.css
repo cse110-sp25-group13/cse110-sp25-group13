@@ -21,6 +21,9 @@ https://www.youtube.com/watch?app=desktop&v=NxRwIZWjLtE&t=939s
 body{
   margin: 1rem;
   display: grid;
+
+  background-color: black;
+  color: wheat;
   
   grid-template-columns: auto 5rem;
   grid-template-rows: 10% 15rem 15rem 10%; 

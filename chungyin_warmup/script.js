@@ -2,8 +2,9 @@ import Deck from "./deck.js";
 // Starting Game
 
 const THRESHOLD_CPU_HIT = 15
+const delayStep_card = 300; // ms delay per card
 
-class Game21{
+class BlackJack{
   constructor(){
     this.reset();
     this.render();
@@ -19,11 +20,19 @@ class Game21{
 
     this.#deck.shuffle();
     
-    this.#cpu_draw("down");
-    this.#cpu_draw("up");
+    setTimeout(()=>{
+      this.#cpu_draw("down");
+    }, 150)
+
+    setTimeout(()=>{
+      this.#cpu_draw("up");
+    }, delayStep_card + 150 )
     
-    this.player_draw();
-    this.player_draw();
+    for(let i = 0; i < 2; ++i){
+      setTimeout(()=>{
+        this.player_draw();
+      }, delayStep_card * i + 150);
+    }
     document.getElementById("general-log").textContent= "Click hit to draw a card when under 21"
   }
 
@@ -66,13 +75,14 @@ class Game21{
     while(this.cpu_cardvalue <= THRESHOLD_CPU_HIT){
       this.#cpu_draw("up");
     }
-    this.#render_computer();
     
     if(this.gameover){
       document.getElementById("general-log").textContent=("you lost")
     }
     else document.getElementById("general-log").textContent=("you won")
-
+    
+    this.#render_computer();
+    this.#render_update_gamelog();
     this.#end = true;
   }
 
@@ -201,6 +211,7 @@ class Game21{
 
     if(this.#player_hands.length == 0) playerHand.textContent = "Click Draw to get a new card"
   }
+
   #render_computer(){
     const compHand = document.getElementById("computer-hands")
     compHand.innerHTML = ""
@@ -219,7 +230,7 @@ class Game21{
   }
 }
 
-const game = new Game21();
+const game = new BlackJack();
 // Always Listening
 document.getElementById("draw-btn").onclick = ()=> game.player_draw();
 document.getElementById("shuffle-btn").onclick = ()=> game.shuffle();
