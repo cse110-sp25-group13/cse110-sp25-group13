@@ -1,34 +1,129 @@
 import Deck from "./deck.js";
 // Starting Game
 class Game21{
-  #deck;
-  #player_hands;
-  #cpu_hands;
-
   constructor(){
+    this.reset();
+    this.render();
+
+  }
+  
+  // Required action
+  reset() {
     this.#deck = new Deck();
     this.#player_hands = [];
     this.#cpu_hands = [];
+
+    this.#deck.shuffle();
+    
+    this.#cpu_draw("down");
+    this.#cpu_draw("up");
+
+    this.player_draw();
+    this.player_draw();
     this.render();
-  }
-  
-  reset() {
-    this.#deck.reset();
-    this.#player_hands = [];
-    this.#cpu_hands = [];
   }
 
-  // Game action
+  shuffle(){
+    this.#deck.shuffle();
+    this.#render_deck();
+  }
+
   player_draw(face="up"){
-    const card = this.#deck.draw(face);
-    // console.log(card.label)
-    if(this.#deck.length != 0) this.#player_hands.push(card);
+    if(this.#deck.length != 0){
+      const card = this.#deck.draw(face)
+      this.#player_hands.push(card);
+    }
+    else alert("Deck is empty!");
+
+    // render 
+    this.#render_player();
+    console.log("Player total card value : " + this.player_cardvalue)
+
+  }
+
+
+  // Player action
+  
+  hit(){
+    if(this.busted){
+      alert("You already BUSTED!");return;
+    }
+    this.player_draw();
+    if(this.busted) alert("You are BUSTED!");
+  }
+
+  stay(){
+    this.#cpu_hands[0].face = "up";
+    while(this.cpu_cardvalue <= 15){
+      this.#cpu_draw("up");
+    }
+    this.#render_computer();
+
+    if(this.gameover){
+      alert("you lost")
+    }
+    else alert("you won")
+  }
+
+  #deck;
+  #player_hands;
+  #cpu_hands;
+  
+  //Inner game state
+
+  get gameover(){
+    return this.busted || this.cpukills;
+  }
+
+  get cpukills(){
+    return (this.cpu_cardvalue >= this.player_cardvalue &&  this.cpu_cardvalue <= 21);
+  }
+
+  get busted(){
+    return this.player_cardvalue > 21;
+  }
+
+  get player_cardvalue(){
+    let sum = 0;
+    let acount = 0;
+    for(const card of this.#player_hands){
+      if(card.rank == "A") acount += 1;
+      else sum += card.value;
+    }
+    if (acount > 0)
+      for(let i = 0; i < acount; ++i){
+        if(sum + 11 > 21)sum += 1;
+        else sum += 11;
+      }
+    return sum;
+  }
+
+  get cpu_cardvalue(){
+    let sum = 0;
+    let acount = 0;
+
+    for(const card of this.#cpu_hands){
+      if(card.rank == "A") acount += 1;
+      else sum += card.value;
+    }
+
+    if (acount > 0){
+      for(let i = 0; i < acount; ++i){
+        if(sum + 11 > 21)sum += 1;
+        else sum += 11;
+      }
+    }
+    return sum;
+  }
+
+  #cpu_draw(face="down"){
+    if(this.#deck.length != 0) {
+      const card = this.#deck.draw(face)
+      this.#cpu_hands.push(card);
+    }
     else alert("Deck is empty!");
     this.render();
-  }
-  #cpu_draw(face="down"){
-    if(this.#deck.length != 0) this.#cpu_hands.push(this.#deck.draw(face));
-    else alert("Deck is empty!");
+    console.log("CPU total card value : " + this.cpu_cardvalue)
   }
 
   // Render Function:
@@ -72,33 +167,9 @@ class Game21{
 }
 
 const game = new Game21();
-
-
-
-
-// Shuffle the existing deck
-function shuffle(){
-  deck.shuffle();
-}
-
-// Draw a card to player hands
-function drawCard(){
-  game.player_draw("up");
-}
-
-//Clear the player;'s hands
-function clear(){
-    hands_count = 0;
-    const playerHand = document.getElementById("player-hands");
-    playerHand.innerHTML = "";
-
-    // Optionally log
-    console.log("Player Hand is cleared.");
-}
-
-// Game logic Function End
-
 // Always Listening
-document.getElementById("draw-btn").addEventListener("click", drawCard);
-document.getElementById("shuffle-btn").addEventListener("click", shuffle);
-document.getElementById("reset-btn").addEventListener("click", reset);
+document.getElementById("draw-btn").onclick = ()=> game.player_draw();
+document.getElementById("shuffle-btn").onclick = ()=> game.shuffle();
+document.getElementById("reset-btn").onclick = ()=> game.reset();
+document.getElementById("hit-btn").onclick = ()=> game.hit();
+document.getElementById("stay-btn").onclick = ()=> game.stay();

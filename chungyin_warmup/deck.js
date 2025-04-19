@@ -55,9 +55,27 @@ class PlayingCard{
     this.#rank = rank;
     this.#face = face;
   }
+  get rank(){
+    return this.#rank;
+  }
 
+  get suit(){
+    return this.#suit;
+  }
+  
   get label(){
     return this.toString();
+  }
+  get value(){
+    switch(this.#rank){
+      case "A": 
+        return 11;
+      case "K":
+      case "Q":
+      case "J":
+        return 10;
+      default: return parseInt(this.#rank);
+    }
   }
   toString(){
     if(this.#face == "up")
