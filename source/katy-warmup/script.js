@@ -24,6 +24,8 @@ let flipCount = 0;
 let estimatedTOD = null;
 
 document.getElementById("tod-form").addEventListener("submit", function(event) {
+    flipCount = 0;
+    flipCountDisplay.textContent = flipCount;
     event.preventDefault();
     estimatedTOD = parseInt(document.getElementById("tod").value);
     estimatedTodSpan.textContent = estimatedTOD;
