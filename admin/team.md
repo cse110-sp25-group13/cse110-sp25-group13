@@ -67,7 +67,7 @@ Zack Roland
 
 Destin Tanjuaquio
 - Major: Computer Science
-- Fun Fact: I like to listen to one song on repeat at a time.
+- Fun Fact: I am reintroducing myself because I pushed wrong and had to revert
 - [Github](https://github.com/desticle)
 
 | Contribution | Title | Description | link |
