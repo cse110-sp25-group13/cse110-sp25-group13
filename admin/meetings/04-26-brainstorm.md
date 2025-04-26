@@ -11,7 +11,7 @@
 - Chencheng Li
 - Darwin Smith (unable to make it but will catch up later)
 
-## Project requirment
+## Project requirement
 
 - Crud app -- create, read, update, delete
 - something about cards
@@ -52,3 +52,5 @@
   - MACROTRANSACTIONS
   - Trumpet SFX
   - sorting hat quiz
+ 
+  ### See the [Miro board](https://miro.com/app/board/uXjVI99eBAw=/) we worked on!
