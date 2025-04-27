@@ -11,5 +11,6 @@
 ## Visuals and wireframes
 Our inspiration: 
 ![Club penguin game](club_penguin.png)
+
 Overall system diagram:
 ![System diagram](cse110_systemdiagram.png)
