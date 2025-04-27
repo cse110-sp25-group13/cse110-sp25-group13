@@ -9,8 +9,8 @@
 ### Risks and rabbit holes:
 
 ## Visuals and wireframes
-Our inspiration: 
+### Our inspiration: 
 ![Club penguin game](club_penguin.png)
 
-Overall system diagram:
+### Overall system diagram:
 ![System diagram](cse110_systemdiagram.png)
