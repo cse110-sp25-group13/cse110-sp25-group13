@@ -82,7 +82,10 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 ![Login page](cse110_loginpage.png)
 
 ### Game page:
-<to be added by Zack>
+![basic_layout](BASIC%20GAME%20LAYOUT.png)
+![intro](Intro%20Mode%20Menu.png)
+![playing_table_layout](Player-AI%20GAME%20LAYOUT.png)
+![game_win_layout](Win%20Screen%20GAME%20LAYOUT.png)
 
 ### View collection page:
 ![View collection page](cse110_viewcollectionpage.png)
