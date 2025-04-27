@@ -79,7 +79,7 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 ![System diagram](cse110_systemdiagram.png)
 
 ### Login page:
-![Login page](cse10_loginpage.png)
+![Login page](cse110_loginpage.png)
 
 ### Game page:
 <to be added by Zack>
@@ -88,4 +88,4 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 ![View collection page](cse110_viewcollectionpage.png)
 
 ### Pull / unveil new cards page: 
-![Pull/unveil new cards page](cse110_pulllnewpage.png)
+![Pull/unveil new cards page](cse110_pullnewpage.png)
