@@ -42,7 +42,7 @@ UCSD College Card Compare is a web app designed to bring the spirit of campus li
   - Complex card abilities, skills, or status effects.
   - Health points, mana, or complex resource/turn management.
   - Integration with external systems (grades, etc.).
-  - User accounts or profiles. (
+  - User accounts or profiles.
   - User login
   - College assignment
   - Provide starter cards
@@ -77,3 +77,15 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 
 ### Overall system diagram:
 ![System diagram](cse110_systemdiagram.png)
+
+### Login page:
+![Login page](cse10_loginpage.png)
+
+### Game page:
+<to be added by Zack>
+
+### View collection page:
+![View collection page](cse110_viewcollectionpage.png)
+
+### Pull / unveil new cards page: 
+![Pull/unveil new cards page](cse110_pulllnewpage.png)
