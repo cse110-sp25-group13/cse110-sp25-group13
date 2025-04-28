@@ -94,6 +94,9 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 ## Visuals and wireframes
 ### Our inspiration: 
 <img src="club_penguin.png" alt=club pengin game" width="300" height="200">
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20230501155143/Git-Tutorial.webp" alt="Sample Image" width="400" height="300">
+
+
 
 ### Overall system diagram:
 ![System diagram](cse110_systemdiagram.png)
