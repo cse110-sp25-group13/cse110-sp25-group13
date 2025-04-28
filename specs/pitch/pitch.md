@@ -93,13 +93,10 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 
 ## Visuals and wireframes
 ### Our inspiration: 
-<img src="club_penguin.png" alt=club pengin game" width="300" height="200">
-<img src="club_penguin.png" alt="Sample Image" width="400" height="300">
-
-
+<img src="club_penguin.png" alt="club penguin" width="400" height="300">
 
 ### Overall system diagram:
-![System diagram](cse110_systemdiagram.png)
+<img src="cse110_systemdiagram.png" alt="system diagram" width="400" height="300">
 
 ### Login page:
 ![Login page](cse110_loginpage.png)
