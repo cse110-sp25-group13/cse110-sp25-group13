@@ -114,7 +114,7 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 </table>
 
 ### View collection page:
-<img src="cse110_viewcollectionpage.png" alt="view collection page wireframe" width="450" height="300">
+<img src="cse110_viewcollectionpage.png" alt="view collection page wireframe" width="450" height="400">
 
 ### Pull / unveil new cards page: 
-<img src="cse110_pullnewpage.png" alt="pull new page wireframe" width="450" height="300">
+<img src="cse110_pullnewpage.png" alt="pull new page wireframe" width="450" height="500">
