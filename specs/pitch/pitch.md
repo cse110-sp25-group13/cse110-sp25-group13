@@ -99,7 +99,7 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 <img src="cse110_systemdiagram.png" alt="system diagram" width="350" height="300">
 
 ### Login page:
-![Login page](cse110_loginpage.png)
+<img src="cse110_loginpage.png" alt="login page wireframe" width="450" height="300">
 
 ### Game page:
 ![basic_layout](BASIC%20GAME%20LAYOUT.png)
