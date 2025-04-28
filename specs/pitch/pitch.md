@@ -96,7 +96,7 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 <img src="club_penguin.png" alt="club penguin" width="400" height="300">
 
 ### Overall system diagram:
-<img src="cse110_systemdiagram.png" alt="system diagram" width="400" height="400">
+<img src="cse110_systemdiagram.png" alt="system diagram" width="400" height="300">
 
 ### Login page:
 ![Login page](cse110_loginpage.png)
