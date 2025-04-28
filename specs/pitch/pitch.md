@@ -102,10 +102,16 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 <img src="cse110_loginpage.png" alt="login page wireframe" width="450" height="300">
 
 ### Game page:
-<img src="BASIC%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300">
-<img src="Intro%20Mode%20Menu.png" alt="game page wireframe" width="450" height="300">
-<img src="Player-AI%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300">
-<img src="Win%20Screen%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300">
+<table>
+  <tr>
+    <td><img src="BASIC%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300"></td>
+    <td><img src="Intro%20Mode%20Menu.png" alt="game page wireframe" width="450" height="300"></td>
+  </tr>
+  <tr>
+    <td><img src="Player-AI%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300"></td>
+    <td><img src="Win%20Screen%20GAME%20LAYOUT.png" alt="game page wireframe" width="450" height="300"></td>
+  </tr>
+</table>
 
 ### View collection page:
 ![View collection page](cse110_viewcollectionpage.png)
