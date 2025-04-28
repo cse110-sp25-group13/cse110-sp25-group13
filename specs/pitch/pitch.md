@@ -7,6 +7,26 @@ UCSD College Card Compare is a web app designed to bring the spirit of campus li
 3. **Educate and Inform**: Provide a visually engaging way for prospective and current students to discover the unique features and fun facts about each UCSD college and campus landmarks, helping them in their college decision-making and exploring campus.
 
 ### User personas:
+### **Name:** Triston Muir 
+**Details:** 
+Triston is a first-year college student at UCSD. He’s originally from North Dakota and is still adjusting to the big campus life. He hasn’t made many friends yet and often turns to video games as a way to relax and feel more connected. 
+**Wants and Needs:** 
+- Wants in-depth character customization to express himself. 
+- Needs a reliable game and website that doesn't crash or lag. 
+- Would like to make friends through the game, so features like chat boxes, multiplayer battles, or friend lists are important. 
+**Doesn’t Want or Doesn’t Need:** 
+- Doesn’t need overly complex gameplay or too many confusing features. 
+- Doesn’t need in game sound mechanics, prefers listening to his own music. Would need a way to mute sound
+### **Name:** Revi Shar 
+**Details:** 
+Revi grew up playing Club Penguin and was devastated when the site shut down. As a nostalgic UCSD alum, she’s been searching for a new game that captures the cozy, friendly feel of Club Penguin while still reflecting her UCSD roots. She’s not particularly tech-savvy, so simple interfaces matter to her.
+**Wants and Needs:** 
+- Needs clear, step-by-step game instructions and intuitive controls. 
+- Wants cute, nostalgic visuals and calming music to create a fun and welcoming environment. 
+- Would like cute music and tunes while playing the game.
+**Doesn’t Want or Doesn’t Need:** 
+- Doesn’t want overly competitive features or fast-paced action. 
+- Doesn’t need deep customization or hardcore game mechanics.
 
 ### MVP Features:
 - College Card View (Read):
