@@ -93,7 +93,7 @@ It is the MVP version, so we tried our best to simplify the project to its core.
 
 ## Visuals and wireframes
 ### Our inspiration: 
-![Club penguin game](club_penguin.png)
+<img src="club_penguin.png" alt=club pengin game" width="300" height="200">
 
 ### Overall system diagram:
 ![System diagram](cse110_systemdiagram.png)
