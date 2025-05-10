@@ -7,6 +7,8 @@ on: [push, pull_request]
 jobs:
   lint:
     ...
+  test:
+    ...
   jsdoc:
     ...
   lighthouse:
@@ -46,6 +48,37 @@ lint:
         run: npx eslint . --ext .js
       - name: Run Prettier
         run: npx prettier --check .
+```
+
+---
+
+## ⚠️ Unit Testing via Jest
+
+**Status**: Planned (Not Yet Functional)
+
+### Why
+Unit testing is essential for verifying the correctness of individual components and functions in our codebase. By automating these tests through our CI pipeline, we can quickly detect regressions and ensure that new changes don’t break existing functionality. Jest is a widely-used JavaScript testing framework that offers fast execution, clear output, and built-in code coverage reporting — making it ideal for our project’s needs.
+
+### How
+Tests will be written using the Jest framework and stored alongside the components they cover. On every push and pull request, the pipeline will run all unit tests and fail the build if any test fails. This guarantees that only code which passes all tests can be merged into the main branch.
+
+### Github Actions Integration
+```yaml
+test:
+  runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run Jest tests
+      run: npx jest --ci
 ```
 
 ---
