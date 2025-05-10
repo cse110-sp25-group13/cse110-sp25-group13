@@ -1,74 +1,85 @@
 ---
 # These are optional metadata elements. Feel free to remove any of them.
-status: "{proposed | rejected | accepted | deprecated | … | superseded by ADR-0123"
-date: {YYYY-MM-DD when the decision was last updated}
+status: "{accepted}"
+date: {2025-05-10 when the decision was last updated}
 decision-makers: {list everyone involved in the decision}
 consulted: {list everyone whose opinions are sought (typically subject-matter experts); and with whom there is a two-way communication}
 informed: {list everyone who is kept up-to-date on progress; and with whom there is a one-way communication}
 ---
 
-# {short title, representative of solved problem and found solution}
+# {HTML and CSS Validators for Maintaining Code Quality via Tools}
 
 ## Context and Problem Statement
 
-{Describe the context and problem statement, e.g., in free form using two to three sentences or in the form of an illustrative story. You may want to articulate the problem in form of a question and add links to collaboration boards or issue management systems.}
+{ To ensure code quality automatically, it is prevelant to implement HTML and CSS validators as part of our development process. These tools will be useful in identifying clear issues early on. As a result it will mitigate and reduce the risk of errors in production. Additionaly we aim to automate this process using GitHub Actions to integrate validation checks into the CI pipline }
+
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Decision Drivers
 
-* {decision driver 1, e.g., a force, facing concern, …}
-* {decision driver 2, e.g., a force, facing concern, …}
+* {improve code reliability and consistency}
+* {enhance developer productivity through early error catching}
+* {ensure compliance with best practuices and standards}
+* {automate the validation process to reduce manual effort and human error}
 * … <!-- numbers of drivers can vary -->
 
 ## Considered Options
 
-* {title of option 1}
-* {title of option 2}
-* {title of option 3}
+* {Implement HTML and CSS validators with GitHub Actions}
+* {Manual code review without validators}
+* {Use automated testing tools only}
 * … <!-- numbers of options can vary -->
 
 ## Decision Outcome
 
-Chosen option: "{title of option 1}", because {justification. e.g., only option, which meets k.o. criterion decision driver | which resolves force {force} | … | comes out best (see below)}.
+Chosen option: "{Implement HTML and CSS validators with GitHub Actions}", because it automates the process of code quality checks, ensures adherence to standards, and integrates seamlessly with the CI/CD pipeline, supporting early bug detecting and imporving development efficency
 
 <!-- This is an optional element. Feel free to remove. -->
 ### Consequences
 
-* Good, because {positive consequence, e.g., improvement of one or more desired qualities, …}
-* Bad, because {negative consequence, e.g., compromising one or more desired qualities, …}
+* Good, because {it automates HTML and CSS validation checks during the development process}
+* Good, because {we save time not having to manually identify trivial errors}
+* Good, because {it ensures we consistently adhere to defined coding standards}
+* Bad, because {it requires time and effort for inital setup and configuration for GitHub actions}
+* Neutral, because {devs will need to address any flagged errors by the validators but ensures cleaner code}
 * … <!-- numbers of consequences can vary -->
 
 <!-- This is an optional element. Feel free to remove. -->
 ### Confirmation
 
-{Describe how the implementation / compliance of the ADR can/will be confirmed. Is there any automated or manual fitness function? If so, list it and explain how it is applied. Is the chosen design and its implementation in line with the decision? E.g., a design/code review or a test with a library such as ArchUnit can help validate this. Note that although we classify this element as optional, it is included in many ADRs.}
+{The implementation fo HTML and CSS validators with GitHub actions will be confirmed through automated checks in each pull request. We will configure the GitHub actions workflow to trigger validation whenever new code is pushed to the repository. This setup will ensure that code quality checks are automaticallicaly performed and any isssues are reported immediately. Regular reviews of the configuration will ensure that the validators remain aligned with project standards}
 
 <!-- This is an optional element. Feel free to remove. -->
 ## Pros and Cons of the Options
 
-### {title of option 1}
+### {Implement HTML and CSS validators with GitHub Actions}
 
-<!-- This is an optional element. Feel free to remove. -->
-{example | description | pointer to more information | …}
+* Good, because {it automates HTML and CSS validation checks during the development process}
+* Good, because {we save time not having to manually identify trivial errors}
+* Good, because {it ensures we consistently adhere to defined coding standards}
+* Bad, because {it requires time and effort for inital setup and configuration for GitHub actions}
+* Neutral, because {devs will need to address any flagged errors by the validators but ensures cleaner code}
 
-* Good, because {argument a}
-* Good, because {argument b}
-<!-- use "neutral" if the given argument weights neither for good nor bad -->
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* … <!-- numbers of pros and cons can vary -->
+### {Manual Code Review Without Validators}
 
-### {title of other option}
+* Good, because {do not have the spend time setting up and automatic validation pipeline}
+* Good, because {might be able to spot greater errors that these validators miss}
+* Neutral, because {we rely on human inspection which can be subjective}
+* Bad, because {because we may miss more subtle errors and consistencies}
+* Bad, because {it consumes more time and effort compared to automatic tooling}
 
-{example | description | pointer to more information | …}
+### {Use automated testing tools only}
 
-* Good, because {argument a}
-* Good, because {argument b}
-* Neutral, because {argument c}
-* Bad, because {argument d}
-* …
-
+* Good, because {automates testing process}
+* Neutral, because {because it may not cover specific HTML and CSS validation needs}
+* Bad, because {primarily focuses on functional testing rather than code quality}
 <!-- This is an optional element. Feel free to remove. -->
 ## More Information
 
-{You might want to provide additional evidence/confidence for the decision outcome here and/or document the team agreement on the decision and/or define when/how this decision the decision should be realized and if/when it should be re-visited. Links to other decisions and resources might appear here as well.}
+This decision aligns with industry best practices for maintaining code quality in web development. Integrating the validation process into GitHub Actions will ensure that each developer's contribution is automatically checked, preventing invalid code from being merged. The team will recieve immediate feedback on validation erros, which helps prevent any issues from reaching production.
+
+### GitHub Actions SetUp Overview:
+1. Action Setup: We will created a  {.github/workflows/validate.yml} file to define GitHub Actions workflow
+2. Validators: We will use open-source tools like [W3 HTML Validation Service](https://validator.w3.org) and [W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+3. Trigger: The workflow will be triggered on every push or pull request to the repository to ensure the code validation is automatic
+4. Notifications: if erros are found during validation, GitHub actions will report them in the pull request checks, providing immediate feedback.
