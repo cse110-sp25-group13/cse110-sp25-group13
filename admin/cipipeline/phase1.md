@@ -1,5 +1,7 @@
 # CI/CD Pipeline Implementation Status Report
 
+## Working diagram:
+
 !["ci pipeline diagram"](phase1.png)
 
 As part of our development strategy for building a clean, well-engineered Minimum Viable Product (MVP), we are designing a CI/CD pipeline that ensures code consistency, minimizes bugs, and maintains high-quality standards. While all components are currently **planned but not yet functional**, this document outlines the **purpose**, **planned functionality**, and **likely GitHub Actions integration** method for each component of our pipeline. All Github Actions integrations for each component will be consolidated into a single yaml file `.github/workflows/[name].yaml`, with additional specialized files as needed, and will be triggered on both `push` and `pull_request` events, such as:
