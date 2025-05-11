@@ -22,12 +22,12 @@ jobs:
 
 ---
 
-## ⚠️ Linting with ESLint + Prettier
+## ✅ Linting with ESLint + Prettier
 
-**Status**: Planned (Not Yet Functional)
+**Status**: Functional
 
 ### Why
-Linting and formatting are foundational for maintaining code consistency and readability. By using ESLint and Prettier together, and basing our shared configuration on W3Schools JavaScript conventions, we ensure that all contributors follow a unified code style, reducing errors related to syntax and formatting.
+Linting and formatting are foundational for maintaining code consistency and readability. By using ESLint and Prettier together, and basing our shared configuration on W3Schools JavaScript conventions, we ensure that all contributors follow a unified code style, reducing errors related to syntax and formatting. We will also use ESLint for CSS validation for consistency, performance, and maintainability of our CSS code. 
 
 ### How
 The pipeline will run ESLint and Prettier checks on every PR. This prevents code with style or syntax violations from being merged into the main branch.
@@ -52,9 +52,9 @@ lint:
 
 ---
 
-## ⚠️ Unit Testing via Jest
+## ✅ Unit Testing via Jest
 
-**Status**: Planned (Not Yet Functional)
+**Status**: Functional
 
 ### Why
 Unit testing is essential for verifying the correctness of individual components and functions in our codebase. By automating these tests through our CI pipeline, we can quickly detect regressions and ensure that new changes don’t break existing functionality. Jest is a widely-used JavaScript testing framework that offers fast execution, clear output, and built-in code coverage reporting — making it ideal for our project’s needs.
@@ -151,9 +151,9 @@ jsdoc:
 
 ---
 
-## ⚠️ HTML and CSS Validation
+## ✅ HTML Validation (⚠️ CSS Validation)
 
-**Status**: Planned (Not Yet Functional)
+**Status**: HTML functional, CSS validation with `eslint` (see above)
 
 ### Why
 
