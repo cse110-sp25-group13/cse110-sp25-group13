@@ -20,3 +20,6 @@ You can find our team intro video at:
 Here’s a snapshot from our team bonding activity:  
 [original file](/admin/teambonding.jpg)
 [youtube link](https://youtu.be/PX--Qppba-c)
+
+## Agile update #1: 
+[youtube link](https://youtu.be/2RdZvpFDxMw)
