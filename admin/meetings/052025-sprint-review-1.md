@@ -2,7 +2,10 @@
 
 ### Attendees: Katy, Zhenyu, Pranay, Nick, Zack, Destin, Jaylynne, Haoting, Chencheng, Chungyin, Ryan
 
+### Important note: Due to some initial timeline confusion and scheduling conflicts, Sprint 1 ran from Tuesday-Tuesday. We are doing our best to get back on timeline but were under the impression that there was more flexibility in sprint timelines. This will remedied moving forward.
+
 ### Completed work: We completed demos from each team. Each team shared their screen and gave a "tour" of the work they had completed.
+
 #### Game pages: 
 - `game-page.html` has some structure but no functionality and the formatting is off. There are some other pages with progress on them but not pushed to the respective branch.
 - Some simple CSS but needs to be cleaned up and cover more of the HTML elements.
