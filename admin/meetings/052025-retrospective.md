@@ -2,6 +2,9 @@
 
 ### Attendance: Katy, Zhenyu, Chencheng, Nick, Jaylynne, Ryan, Chung Yin, Haoting, Pranay, Destin, Zack
 
+### Important note: Due to some initial timeline confusion and scheduling conflicts, Sprint 1 ran from Tuesday-Tuesday. We are doing our best to get back on timeline but were under the impression that there was more flexibility in sprint timelines. This will remedied moving forward.
+
+
 ### What did we do? 
 - Set up the basic html home page & game page
 - Set up the initial game logic
