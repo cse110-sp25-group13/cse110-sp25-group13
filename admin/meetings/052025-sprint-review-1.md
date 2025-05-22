@@ -6,7 +6,7 @@
 
 ### Completed work: We completed demos from each team. Each team shared their screen and gave a "tour" of the work they had completed.
 
-#### Game pages: 
+### Game pages: 
 - `game-page.html` has some structure but no functionality and the formatting is off. There are some other pages with progress on them but not pushed to the respective branch.
 - Some simple CSS but needs to be cleaned up and cover more of the HTML elements.
 
