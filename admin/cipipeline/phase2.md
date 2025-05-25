@@ -2,7 +2,7 @@
 
 ## Working diagram:
 
-!["ci pipeline diagram"](phase2.png)
+!["ci pipeline diagram"](phase2.drawio.png)
 
 As part of our development strategy for building a clean, well-engineered Minimum Viable Product (MVP), we are designing a CI/CD pipeline that ensures code consistency, minimizes bugs, and maintains high-quality standards. Since our last checkpoint, we have improved processes already implemented and increased functionality. With a more cemented branching strategy (protect and deploy from `main`, branch off of `develop` for features), we have distinguished a bit of functionality between these two branches. 
 
