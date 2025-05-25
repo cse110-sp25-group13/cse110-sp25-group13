@@ -140,7 +140,7 @@ jobs:
           git push origin develop
 ```
 
-## ✅ Lighthouse Audit
+## ✅ Lighthouse Audit (NEW: separated workflow to be triggered from Github Pages)
 
 ### Why
 
