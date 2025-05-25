@@ -182,4 +182,23 @@ jobs:
           temporaryPublicStorage: true
 ```
 
-## Selenium/Puppeteer?
+## ✅ Puppeteer (NEW: switched from Selenium)
+
+### Why
+Puppeteer simulates user interactions and works directly with the browser. It is important because we can test end-to-end what the user might experience, and record screenshots and performance metrics. We ended up switching over from Selenium because we used Puppeteer in our lab and wanted to keep our suite of tools as aligned with the course as possible. Puppeteer is also faster and more imple to set up than Selenium, which was causing us some problems in terms of actually getting it working. 
+
+### How 
+The pipeline will run puppeteer checks every time it is triggered. Triggers include `manual_workflow` or `pull_request`. We now have an `e2e` directory inside our `__tests__` directory with a sanity test suite of e2e tests. 
+
+### Github Actions Integration 
+```yaml
+puppeteer-tests:
+    name: Puppeteer E2E Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run all E2E tests
+        run: npm run test:e2e
+```
