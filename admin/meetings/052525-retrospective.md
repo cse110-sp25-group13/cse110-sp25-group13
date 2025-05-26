@@ -2,28 +2,39 @@
 
 ### Attendance: Katy, Zhenyu, Chencheng, Nick, Jaylynne, Ryan, Chung Yin, Haoting, Pranay, Zack, Darwin
 
-### Important note: Due to some initial timeline confusion and scheduling conflicts, Sprint 1 ran from Tuesday-Tuesday. We are doing our best to get back on timeline but were under the impression that there was more flexibility in sprint timelines. This will remedied moving forward.
+### Important note: Due to some initial timeline confusion and scheduling conflicts, Sprint 1 ran from Tuesday-Tuesday. For this sprint, we set an accelerated timeline in order to get back on track.
 
 
 ### What did we do? 
-- Set up the basic html home page & game page
-- Set up the initial game logic
-- Set up the custom html element for future development
-- Set up the essential CI/CD pipeline
-- Pair people in small groups and work together
+- Improved design on html pages
+- Made sure custom element rendered with CSS
+- Redo the logic of the IndexDB
+- Improve and make deliverables for CI pipeline checkpoint 2
+- Sort out some CSS bugs / Deal with inline CSS and Javascript
+- Use a `#stand-up` channel on Slack to update the group every other day on our progress.
+- Use a team calendar for reminders and meeting times.
+- Use a centralized document with teams, tasks, and guidelines for this sprint.
+- Use Github Projects more closely to keep track of our tasks for this sprint. 
 
 
 ### What went well?
-- We made some good progress in our coding: we have most of the separate elements but still need to combine them
-- Coding in small teams: small enough teams so that communication isn’t too difficult, but lower bus factor 
+- We made some progress combining our code but still have a lot to do.
+- Much better communication on Slack; this improved productivity.
+- The `#stand-up` channel was a great, structured update for everyone to be able to check in.
+- Delegating people to review PRs was also helpful.
+- Responsibility of subteam goals is showing, with members taking ownership of subtasks and putting pride into their work.
+- Tasks are clearer (received feedback from all that the document and calendar were very helpful).
 
 ### What didn’t go as well? 
-- Communication within groups, time conflicts, clear understanding of the task 
-- Communication in terms of different parts being dependent on each other
-- Time management: conflicts for members throughout the week
+- Communication can still be improved between groups.
+- Please react to messages on `Slack`, this helps the leaders understand if they need to follow up with people and if they are actually getting their messages across.
+- Still issues with actually getting anything up and running. Still issues with putting everything together.
+- People used Github Projects more closely but didn't connect issues to the actual PR. 
 
 ### Ideas for improvement/action items:
-- Github projects: for each individual group, there will be a project board. We will use the Kanban template with the boards “Backlog”, “In progress”, and “Done”. Github issues will be used to populate the boards, with correct members assigned and detailed descriptions. Github projects to keep track of contribution between small teams and status of projects.
-- Clearer definition of tasks and more granular, deliberate subtasks. These should be demonstrated through creating Github sub-issues. Larger subtasks will be defined in the full team, and it is up to the small groups to create and delegate these sub tasks. 
-- Discuss conflicts up front. What do members have the capacity to do? Do we anticipate time conflicts? These need to be addressed at the beginning of the sprint. 
-- Define a strict deadline for each major feature, and for those who can’t finish by then, their task will be taken care of by others and they will lose participation opportunities.
+- React to message on Slack if you see them! Turn on Slack notifications.
+- Be willing to actually have a meeting with another group -- Slack messaging is fine but sometimes getting face to face can be largely helpful.
+- More structures for PRs, a set workflow for linking PRs to issues.
+- Keep the leaders notify if something comes up and you will be unresponsive for x amount of time.
+- Communicate if you need help.
+- Big action item: at this point, we just need to get MVP working, and we are even thinking of lowering the scope of this as well. 
