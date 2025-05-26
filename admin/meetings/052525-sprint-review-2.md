@@ -1,4 +1,4 @@
-## Sprint review 1 
+## Sprint review 2 (05/25/2025)
 
 ### Attendees: Katy, Zhenyu, Pranay, Nick, Zack, Jaylynne, Haoting, Chencheng, Chungyin, Ryan, Darwin
 
