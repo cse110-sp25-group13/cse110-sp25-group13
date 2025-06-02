@@ -11,7 +11,7 @@
 - Had some merge issues and branching issues
 - Miro board!
 
-[Here's some stuff we did in the meeting!](retro-3.jpg)
+[Here's some stuff we did in the meeting!](retro-3.pdf)
 
 
 ### What went well?
