@@ -9,6 +9,9 @@
 - Spurts of lots of work/communication from people, which is promising
 - Better communication within teams and among teams; fostered by smaller, team-specific channels
 - Had some merge issues and branching issues
+- Miro board!
+
+[Here's some stuff we did in the meeting!](retro-3.jpg)
 
 
 ### What went well?
