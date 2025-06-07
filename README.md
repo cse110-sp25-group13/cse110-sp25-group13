@@ -6,11 +6,7 @@ This repository contains the work of **Group 13** for CSE 110 Spring 2025.
 Meet our team and learn about our brand: [Click here](admin/team.md)
 
 ## 📁 Project Structure
-```
-/admin - Team resources (team page, video, bonding pic, branding)  
-/source - Source code  
-/specs  - Project specifications and documentation  
-```
+- [Admin](admin):
 
 ## 🎥 Team Video
 You can find our team intro video at:  
