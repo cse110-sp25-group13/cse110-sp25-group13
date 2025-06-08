@@ -4,7 +4,7 @@
 
 ## ✅ Project rubric
 | Category | What we did | Links |
------------------------------------
+|-----------|-------------|----------|
 | x | y | z |
 
 ## 🔱 Project Structure
