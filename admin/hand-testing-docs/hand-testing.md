@@ -11,3 +11,9 @@
 
 #### Generally, the icons meant to show up on the card were not loading, and we could see image-error icons right at the top of the card. 
 ![card with missing icon image](imgs/card-icon-no-load.png)
+
+#### We got the cards to fit better to the screen, but they were still too long and the icon pictures were squished into their slots. 
+![tall thin cards with overflowing text and squeezed contents](imgs/card-squeeze-proportions-off.png)
+
+#### Icon images are not squeezed, but text still overflows from the cards.
+![proportional cards with rarity rankings overflowing](imgs/overflow-card-text.png)
