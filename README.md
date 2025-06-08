@@ -56,9 +56,9 @@
 ## 🔱 Project Structure
 - [admin](admin) (branding, pipeline, design docs, system docs, meetings, rules, teambonding):
   - [pipeline](admin/cipipeline)
-  - [design-docs](admin/design-docs)
+  - [design-docs](specs/design-docs)
   - [meetings](admin/meetings) (check here for retro meetings, planning docs, review meetings, etc)
-  - [system-docs[(admin/system-docs)
+  - [system-docs](specs/system-docs)
 
 ## 🎥 Team Video
 You can find our team intro video at:  
