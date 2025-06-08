@@ -42,14 +42,14 @@
 ## ✅ The -ilities
 | Category | What we did | Links |
 |----------|-------------|-------|
-| Functional Stability | asdgasdgasdg | asdgasdg |
-| Performance Efficiency | asdgasdgasdg | asdgasdg |
-| Compatibility (Interoperability) | asdgasdgasdg | asdgasdg |
+| Functional Stability | Ensured the site was functional through unit, end to end, and browser testing. We aimed for high coverage to improve the quality of these tests. We added handling in case cards did not load in our database so that the user would be informed and the error gracefully handled. Our CICD pipeline also enabled stability because we were able to develop incrementally by passing the pipeline. | [The_club_triton tests](https://github.com/cse110-sp25-group13/The_club_triton/tree/develop/__tests__)<br> [Pipeline description](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/admin/cipipeline/phase2.md) |
+| Performance Efficiency | We optimized image size and used next-gen formats to reduce loading time for our users. HOW ELSE | asdgasdg |
+| Compatibility (Interoperability) | We used Playwright for browser testing across Chromium, Firefox and Webkit. | ???? |
 | Usability | We designed our site with 3 simple, clearly defined pages, with instructions on 2 pages. There is a clear and easy to use nav bar visible across all pages. To improve readability, the user can hover over cards to increase their size. (how ppl won in each round??) | asdgasdg |
 | Reliability | For our branching strategy, we have a separate `main` and `develop` branch so that we always have a working version of our site. For the reliable retrieval of cards from our database, we use a local read from a `json` file. We also have font fallbacks in case the custom fonts we use do not load. | FALLBACK IMAGES? NOSCRIPT? |
-| Security | asdgasdgasdg | asdgasdg Change to accessibility??  |
+| Accessibility | ??????? | asdgasdg Change to accessibility??  |
 | Maintainability | We designed a robust CICD pipeline featuring unit, e2e, browser tests, linting, formatting, doc generation, and code coverage, which facilitates the maintainability of our application. We also designed a custom card element so that changes to the card schema could be made simply. Furthermore, the navbar element has separate code which also increases maintainability. | Link? |
-| Portability | We implemented dynamic file paths for localhost vs Github pages rendering. We also added browser testing to make sure that our site renders correctly on multiple browsers (Chromium, Firefox, WebKit) | asdgasdg |
+| Portability | We implemented dynamic file paths for localhost vs Github pages rendering. We also added browser testing to make sure that our site renders correctly on multiple browsers (Chromium, Firefox, WebKit) | [The_club_triton tests](https://github.com/cse110-sp25-group13/The_club_triton/tree/develop/__tests__) |
 
 
 ## 🔱 Project Structure
