@@ -64,11 +64,10 @@ Linting and formatting are integrated into our Git workflow (e.g., pre-commit ho
 * Bad, because it’s slow and subjective
 * Bad, because it leads to inconsistent code and merge conflicts
 
-### Airbnb Style Guide with ESLint
+### W3Schools Style Guide with ESLint
 
-* Good, because it's industry standard and very complete
-* Bad, because it is overly strict and overwhelming for beginners
-* Bad, because it may require advanced configuration and overrides
+* Good, because it's geared towards learners, which we are
+* Neutral, because it may not be as strict or in-depth as industry standards
 
 ## More Information
 
