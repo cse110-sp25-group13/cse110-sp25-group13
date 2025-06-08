@@ -2,7 +2,12 @@
 
 ## 🌊 Our application can be found at this repository, which is also in our `cse110-sp25-group13` organization: [The_club_triton repository](https://github.com/cse110-sp25-group13/The_club_triton). You can also check the website, hosted on Github-pages: [The_club_triton website](https://cse110-sp25-group13.github.io/The_club_triton/src/pages/home-page.html)
 
-## 📁 Project Structure
+## ✅ Project rubric
+| Category | What we did | Links |
+-----------------------------------
+| x | y | z |
+
+## 🔱 Project Structure
 - [admin](admin) (branding, pipeline, design docs, system docs, meetings, rules, teambonding):
   - [pipeline](admin/cipipeline)
   - [design-docs](admin/design-docs)
