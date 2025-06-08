@@ -5,7 +5,10 @@
 ## ✅ Project rubric
 | Category | What we did | Links |
 |-----------|-------------|----------|
-| x | y | z |
+| Pull request reviewing | um what did we do | idk |
+| Branching use | Branching name strategy: name-what-you-did | branches perhaps |
+| CI/CD Pipeline | Linting, formatting, tests (with coverage): unit tests, end to end tests, browser tests, JSDocs | Folder |
+
 
 ## 🔱 Project Structure
 - [admin](admin) (branding, pipeline, design docs, system docs, meetings, rules, teambonding):
