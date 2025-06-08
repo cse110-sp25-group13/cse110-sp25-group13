@@ -32,7 +32,7 @@
 | Code Linting and Style Enforcement | We looped this into our CICD pipeline which kept linting and style constant and easy to enforce. | [Pipeline description](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/admin/cipipeline/phase2.md) | 
 | Unit Testing | We used `jest` to align our tools with the course. We also implemented code coverage and aimed for an 85% coverage rate with our tests. The tests were integrated into our CICD pipeline in the spirit of continuous integration. | ADR? |
 | E2E Testing | We used `puppeteer` to aligin our tools with the course. alskdjgalskdjglsakdjg | ADR? | 
-| Hand Testing | Performed and documented .... | Link to documnentation | 
+| Hand Testing | Hand testing was performed throughought development of the project and this can be seen in the Files in our numerous Slack channels. We have also put together hand testing documentation displaying our most informative screenshots and the bugs that they helped us solve. | [Hand testing docs](admin/hand-testing-docs) | 
 | "Dog Fooding" | tf | Asfasdf |
 | Stakeholder Feedback | We attended weekly TA meetings to get feedback from the TA asldfkasdlga | asdgasdg |
 | Outisde User Acceptance Testing | To conduct user acceptance testing, we created a form to send out to users, asking them about their experience with the site. We made the form easily accessible. Though the project is "finished" at this point, the results of this form would be used to iterate and improve the site as we continue to maintain it. | [Link to form](https://docs.google.com/forms/d/e/1FAIpQLSf6G2w56x0YxmaPzBKWFPoddjs2lPJH4QqLqW7SDcwNWOhryw/viewform?usp=dialog) |
