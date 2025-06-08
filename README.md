@@ -9,7 +9,7 @@
 |-----------|-------------|----------|
 | Pull request reviewing | um what did we do | idk |
 | Branching use | Branching name strategy: name-what-you-did | [Branches](https://github.com/cse110-sp25-group13/The_club_triton/branches) [Branching Strategy ADR](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/specs/adrs/050925-Branching-Strategy.md) |
-| CI/CD Pipeline | Linting, formatting, tests (with coverage): unit tests, end to end tests, browser tests, JSDocs | [Folder](https://github.com/cse110-sp25-group13/cse110-sp25-group13/tree/main/admin/cipipeline) [CI Pipeline ADR](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/specs/adrs/051025-CICD-Pipeline-Decisions.md) [Playwright ADR](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/specs/adrs/06072025-playwright.md) |
+| CI/CD Pipeline | Linting, formatting, tests (with coverage): unit tests, end to end tests, browser tests, JSDocs | [Folder](https://github.com/cse110-sp25-group13/cse110-sp25-group13/tree/main/admin/cipipeline)<br> [CI Pipeline ADR](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/specs/adrs/051025-CICD-Pipeline-Decisions.md) [Playwright ADR](https://github.com/cse110-sp25-group13/cse110-sp25-group13/blob/main/specs/adrs/06072025-playwright.md) |
 | Issue Tracking | Used a feature format, linked issues to project boards with parent issues, kept these boards up to date | Link smth |
 | Repo use: Tagging/releases | something | something |
 | Docs (README.md) | There are READMEs for directories | alskdjf;alskdfjal;skdjg |
