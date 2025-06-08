@@ -15,7 +15,7 @@
 | Docs (README.md) | There are READMEs for directories | alskdjf;alskdfjal;skdjg |
 | Design Related Docs | We created wireframes for our initial designs, game flows, collected inspiration for page designs, and mocked out designs before coding. | [design-docs](admin/design-docs) |
 | UCD Related Docs | From the pitch to the end of the project, we kept user stories in mind as we created our issues. Check the linked document for a list of the user stories we continually referenced. | [user-stories.md](specs/user-stories.md) |
-| Architectural Related Docs | ???? | ????? |
+| Architectural Related Docs | For any architecture-related decisions we made, we created in-depth ADRs detailing the reasonings behind our decision. | [ADRs](specs/adrs) |
 | System Related Docs | We created system diagrams for the general flow of the site as well as system diagrams for our CICD pipeline. | [pipeline chart](), [system-diagrams]() | 
 | Team & Managerial Related Docs | Every team/managerial related document that was referenced as an assignment in Canvas is uploaded to its correct spot. We also have other documents, such as meeting plans, sprint plans, and Miro boards in this repository. | Links |
 | Developer Docs | Every time a PR is successfully merged to `develop`, our JSDocs workflow is triggered, updating our developer docs. Something else? | Links |
