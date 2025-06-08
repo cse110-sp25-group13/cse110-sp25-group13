@@ -17,3 +17,15 @@
 
 #### Icon images are not squeezed, but text still overflows from the cards.
 ![proportional cards with rarity rankings overflowing](imgs/overflow-card-text.png)
+
+#### The timer is supposed to start green at 60, but once the first 60 seconds elapsed it stayed red when it hit 60 again and then turned green at 59. 
+![red circle with 60](imgs/timer-animation-error.png)
+
+#### The icon images for the card hugely overflowed so that you could see like 1/4 of the actual image.
+![icons overflowing](imgs/overflow-icon-images.png)
+
+#### The text in the instructions needs to be reformatted because it overflows the actual projector. 
+![overflowing text](imgs/instructions-text-error.png)
+
+#### The elements that were supposed to be at the top of the page malfunctioned and ended up in the wrong spots: the white boxes and the instruction text.
+![text at top left corner and white boxes at bottom left](imgs/top-part-of-page-error.png)
