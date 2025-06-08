@@ -1,9 +1,9 @@
 ---
 status: "accepted"
 date: 2025-06-08
-decision-makers: [Jaylynne, Katy, Team Club Triton]
-consulted: [TA Team, GitHub Copilot, Prettier/ESLint Docs]
-informed: [All team contributors, UI reviewers]
+decision-makers: [Whole team (team 13)]
+consulted: [W3Schools, ESlint/Prettier docs, course materials]
+informed: [All team]
 ---
 
 # Standardizing Code Formatting with ESLint, Prettier, and W3Schools Style Guide
