@@ -40,6 +40,18 @@
 | Team Communications (Meetings) | asldkgjasdlg | Asdgasdgasdg |
 | Other Team Dynamics | asdfasdf | ADgasdgasdg | 
 
+## ✅ The -ilities
+| Category | What we did | Links |
+|----------|-------------|-------|
+| Functional Stability | asdgasdgasdg | asdgasdg |
+| Performance Efficiency | asdgasdgasdg | asdgasdg |
+| Compatibility (Interoperability) | asdgasdgasdg | asdgasdg |
+| Usability | asdgasdgasdg | asdgasdg |
+| Reliability | asdgasdgasdg | asdgasdg |
+| Security | asdgasdgasdg | asdgasdg Change to accessibility??  |
+| Maintainability | asdgasdgasdg | asdgasdg |
+| Portability | asdgasdgasdg | asdgasdg |
+
 
 ## 🔱 Project Structure
 - [admin](admin) (branding, pipeline, design docs, system docs, meetings, rules, teambonding):
