@@ -75,5 +75,3 @@ Linting and formatting are integrated into our Git workflow (e.g., pre-commit ho
 * Prettier: https://prettier.io/
 * W3Schools HTML Style Guide: https://www.w3schools.com/html/html_styles.asp
 * Configs are located in `/configs` in `The_club_triton` repo
-
-This decision will be re-evaluated if our project scales, gains more contributors, or shifts toward more production-grade deployment, at which point we may consider stricter style guides like Airbnb’s.
