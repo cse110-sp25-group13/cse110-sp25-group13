@@ -3,6 +3,8 @@
 ## 🔱 Our application can be found at this repository, which is also in our `cse110-sp25-group13` organization: 
 - [The_club_triton repository](https://github.com/cse110-sp25-group13/The_club_triton)
 - You can just simply run on the any website, for example we host ours on Github-pages: [The_club_triton website](https://cse110-sp25-group13.github.io/The_club_triton/src/pages/home-page.html)
+- once you click on the link, error page will pop up at first just to showcase its functionality, you can properly play the game after clicking back to home
+- Once you at the home page, you can either go directly click play to start the game or go to collection to customer your deck, and then click play on the bottom
 - We got the okay from TAs to make a separate repository for our code base
 
 ## Demo
