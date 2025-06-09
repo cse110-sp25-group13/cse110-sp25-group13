@@ -5,6 +5,9 @@
 - You can also check the website, hosted on Github-pages: [The_club_triton website](https://cse110-sp25-group13.github.io/The_club_triton/src/pages/home-page.html)
 - We got the okay from TAs to make a separate repository for our code base
 
+## Demo
+![Demo](./assets/demo.gif)
+
 ## ✅ Project rubric
 | Category | What we did | Links |
 |-----------|-------------|----------|
