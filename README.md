@@ -6,7 +6,7 @@
 - We got the okay from TAs to make a separate repository for our code base
 
 ## Demo
-![Demo](./assets/demo.gif)
+![Demo](./specs/demo.gif)
 
 ## ✅ Project rubric
 | Category | What we did | Links |
