@@ -77,11 +77,8 @@ Structure:
   </ul>
 </nav>
 ```
-## Collection page tour
-[overview](overview.png)
-## Game page
-[overview](overview.png)
-## CI/CD
+## Collection page && Game page
+![overview](overview.png)
 
 ### CI Pipeline (``main.yml``)
 Fires on every PR and manual trigger.
