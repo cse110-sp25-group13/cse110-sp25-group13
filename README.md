@@ -10,6 +10,9 @@
 ## Demo
 ![Demo](./specs/demo.gif)
 
+## Onboard document
+[onboard](./specs/onboard.md)
+
 ## ✅ Project rubric
 | Category | What we did | Links |
 |-----------|-------------|----------|
