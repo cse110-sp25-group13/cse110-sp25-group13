@@ -78,9 +78,9 @@ Structure:
 </nav>
 ```
 ## Collection page tour
-
+[overview](./specs/overview.png)
 ## Game page
-
+[overview](./specs/overview.png)
 ## CI/CD
 
 ### CI Pipeline (``main.yml``)
